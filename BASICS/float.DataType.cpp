@@ -1,0 +1,42 @@
+#include<iostream>
+using namespace std;
+int main(){
+     float x=5.5;
+     cout<<x<<endl;
+     x=10.5;
+     cout<<x<<endl;
+     x=x+5.5;
+     cout<<x<<endl;
+     x=x-5.5;
+     cout<<x<<endl;
+     x=x*5.5;
+     cout<<x<<endl;
+     x=x/5.5;
+     cout<<x<<endl;
+     x=x+5.5;
+     cout<<x<<endl;
+     x+=5.5;
+     cout<<x<<endl;
+     x-=5.5;
+     cout<<x<<endl;
+     x*=5.5;
+     cout<<x<<endl;
+     x/=5.5;
+     cout<<x<<endl;
+     x++;
+     cout<<x<<endl;
+     x--;
+     cout<<x<<endl;
+     ++x;
+     cout<<x<<endl;
+     --x;
+     cout<<x<<endl;
+     cout<<x++<<endl;
+     cout<<x<<endl;
+     cout<<++x<<endl;
+     cout<<x<<endl;
+     cout<<x--<<endl;
+     cout<<x<<endl;
+     cout<<--x<<endl;
+     cout<<x<<endl;
+}
